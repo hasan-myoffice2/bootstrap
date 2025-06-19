@@ -4,7 +4,37 @@
     box-sizing: border-box;
 }
 
-.card {
-    margin: 10px;
+
+.row div {
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.card-text {
+    color: #000;
+}
+
+.button {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    background-color: green !important;
+    color: white !important;
+}
+
+.card-section {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.button:hover {
+    color: rgb(15, 14, 14) !important;
+    background-color: bisque !important;
 }
 
